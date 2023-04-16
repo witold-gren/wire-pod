@@ -136,7 +136,7 @@
     ]
   },
   {
-    "name": "intent_amazon_signin",
+    "name": "intent_amazon_signout",
     "keyphrases": [
       "wyloguj się",
       "wyłącz aleksa",
