@@ -1,0 +1,522 @@
+[
+  {
+    "name": "intent_names_username_extend",
+    "keyphrases": [
+      "nazywa się",
+      "rodzimy jest",
+      "nazwy",
+      "nazwa"
+    ]
+  },
+  {
+    "name": "intent_weather_extend",
+    "keyphrases": [
+      "pogoda",
+      "prognoza pogody",
+      "jutro pogoda",
+      "pogoda jutro"
+    ]
+  },
+  {
+    "name": "intent_names_ask",
+    "keyphrases": [
+      "moje imię",
+      "moje imie",
+      "kim jestem",
+      "jestem",
+      "jak się nazywam",
+      "sie nazywam"
+    ]
+  },
+  {
+    "name": "intent_imperative_eyecolor",
+    "keyphrases": [
+      "kolor oczu",
+      "kolor"
+    ]
+  },
+  {
+    "name": "intent_character_age",
+    "keyphrases": [
+      "stary",
+      "lat",
+      "masz lat",
+      "ile masz",
+      "ile masz lat"
+    ]
+  },
+  {
+    "name": "intent_explore_start",
+    "keyphrases": [
+      "rozpocznij",
+      "rozpoznaj",
+      "poznaj",
+      "sprawdź",
+      "sprawdz",
+      "eksploruj",
+      "zwiedzaj"
+    ]
+  },
+  {
+    "name": "intent_system_charger",
+    "keyphrases": [
+      "ładuj",
+      "dom",
+      "swojeg",
+      "idź do swojeg",
+      "idz do swojeg",
+      "swojego",
+      "znajdź swój",
+      "znajdz swoj"
+    ]
+  },
+  {
+    "name": "intent_system_sleep",
+    "keyphrases": [
+      "spac",
+      "spać"
+    ]
+  },
+  {
+    "name": "intent_greeting_goodmorning",
+    "keyphrases": [
+      "dobry",
+      "dzień dobry",
+      "dzien dobry"
+    ]
+  },
+  {
+    "name": "intent_greeting_goodnight",
+    "keyphrases": [
+      "dobranoc",
+      "dobra noc"
+    ]
+  },
+  {
+    "name": "intent_greeting_goodbye",
+    "keyphrases": [
+      "do widzenia",
+      "widzenia"
+    ]
+  },
+  {
+    "name": "intent_seasonal_happynewyear",
+    "keyphrases": [
+      "nowego roku",
+      "szczęśliwego roku",
+      "szczesliwego roku",
+      "szczęśliwego nowego roku",
+      "szczesliwego nowego roku",
+      "roku",
+      "szczęśliwego nowego ku",
+      "szczslliwego nowego ku"
+    ]
+  },
+  {
+    "name": "intent_seasonal_happyholidays",
+    "keyphrases": [
+      "wesołych świąt",
+      "wesolych swiat",
+      "wesołych",
+      "wesolych",
+      "swiat",
+      "świat"
+    ]
+  },
+  {
+    "name": "intent_amazon_signin",
+    "keyphrases": [
+      "wprowadź aleksę",
+      "zainstaluj aleksę",
+      "zaloguj do aleksy",
+      "aktywuj aleksę",
+      "zarejestruj się w aleksa",
+      "włącz aleksę",
+      "zaloguj się"
+    ]
+  },
+  {
+    "name": "intent_amazon_signin",
+    "keyphrases": [
+      "wyloguj się",
+      "wyłącz aleksa",
+      "wyłącz alekse",
+      "wyłącz aleksę",
+      "deaktywuj aleksę",
+      "odinstaluj aleksę",
+      "odinstaluj alekse"
+    ]
+  },
+  {
+    "name": "intent_imperative_forward",
+    "keyphrases": [
+      "do przodu",
+      "przodu",
+      "do odu"
+    ]
+  },
+  {
+    "name": "intent_imperative_turnaround",
+    "keyphrases": [
+      "obróć się",
+      "obroc sie",
+      "obroc",
+      "obróć"
+    ]
+  },
+  {
+    "name": "intent_imperative_turnleft",
+    "keyphrases": [
+      "lewo",
+      "w lewo",
+      "skręć w lewo",
+      "skrec w lewo",
+      "idź w lewo",
+      "idz w lewo"
+    ]
+  },
+  {
+    "name": "intent_imperative_turnright",
+    "keyphrases": [
+      "prawo",
+      "w prawo",
+      "skręć w prawo",
+      "skrec w prawo",
+      "idź w prawo",
+      "idz w prawo"
+    ]
+  },
+  {
+    "name": "intent_play_rollcube",
+    "keyphrases": [
+      "rzuć kostką",
+      "rzuc kostką",
+      "przesuń kostkę",
+      "przesuń kostke",
+      "zagraj kostką",
+      "zagraj kostka"
+    ]
+  },
+  {
+    "name": "intent_play_popawheelie",
+    "keyphrases": [
+      "stań na głowie",
+      "stań na rękach",
+      "poszalej",
+      "jedź na jednym kole"
+    ]
+  },
+  {
+    "name": "intent_play_fistbump",
+    "keyphrases": [
+      "przybij piątke",
+      "przybij",
+      "pszybij piatke",
+      "żółwik",
+      "żolwik",
+      "zolwik",
+      "piątka",
+      "piatka",
+      "daj piątkę"
+    ]
+  },
+  {
+    "name": "intent_play_blackjack",
+    "keyphrases": [
+      "blek dżak",
+      "blek dzak",
+      "blekdżak",
+      "blekdzak",
+      "graj w karty",
+      "gramy w karty",
+      "gramy",
+      "zagrajmy",
+      "karty"
+    ]
+  },
+  {
+    "name": "intent_imperative_affirmative",
+    "keyphrases": [
+      "ta",
+      "tak",
+      "dokładnie",
+      "dokladnie",
+      "pewnie",
+      "dajesz"
+    ]
+  },
+  {
+    "name": "intent_imperative_negative",
+    "keyphrases": [
+      "nie",
+      "daj spokój",
+      "spadaj"
+    ]
+  },
+  {
+    "name": "intent_photo_take_extend",
+    "keyphrases": [
+      "zdjęcie",
+      "zdjecie",
+      "selfi",
+      "fotografia"
+    ]
+  },
+  {
+    "name": "intent_imperative_praise",
+    "keyphrases": [
+      "dobrze",
+      "świetnie",
+      "wspaniale",
+      "znakomicie",
+      "niesamowicie"
+    ]
+  },
+  {
+    "name": "intent_imperative_abuse",
+    "keyphrases": [
+      "źle",
+      "zle",
+      "kiepsko",
+      "słabo",
+      "slabo",
+      "niedobrze",
+      "strasznie",
+      "okropnie"
+    ]
+  },
+  {
+    "name": "intent_imperative_apologize",
+    "keyphrases": [
+      "przepraszam",
+      "pszepraszam",
+      "nieważne"
+    ]
+  },
+  {
+    "name": "intent_imperative_backup",
+    "keyphrases": [
+      "cofnij się",
+      "cofnij",
+      "cofnąć",
+      "wstecz",
+      "zawróć",
+      "zawracać"
+    ]
+  },
+  {
+    "name": "intent_imperative_volumedown",
+    "keyphrases": [
+      "ciszej",
+      "wycisz"
+    ]
+  },
+  {
+    "name": "intent_imperative_volumeup",
+    "keyphrases": [
+      "głośniej",
+      "podgłośnij"
+    ]
+  },
+  {
+    "name": "intent_imperative_lookatme",
+    "keyphrases": [
+      "popatrz się",
+      "gapip się",
+      "zobacz na mnie",
+      "zobacz na"
+    ]
+  },
+  {
+    "name": "intent_imperative_volumelevel_extend",
+    "keyphrases": [
+      "głośność"
+    ]
+  },
+  {
+    "name": "intent_imperative_shutup",
+    "keyphrases": [
+      "zamknij się",
+      "morda w kubeł"
+    ]
+  },
+  {
+    "name": "intent_greeting_hello",
+    "keyphrases": [
+      "cześć",
+      "co tam",
+      "jak się masz",
+      "co tam słychać",
+      "co u ciebie"
+    ]
+  },
+  {
+    "name": "intent_imperative_come",
+    "keyphrases": [
+      "chodź",
+      "chodź tu",
+      "chodź do mnie",
+      "przyjdź do mnie",
+      "przyjdź tu"
+    ]
+  },
+  {
+    "name": "intent_imperative_love",
+    "keyphrases": [
+      "Kocham cię",
+      "Słodki",
+      "Kochany",
+      "Miłości moja",
+      "Słodziak"
+    ]
+  },
+  {
+    "name": "intent_knowledge_promptquestion",
+    "keyphrases": [
+      "pytanie"
+    ]
+  },
+  {
+    "name": "intent_clock_checktimer",
+    "keyphrases": [
+      "sprawdź minutnik",
+      "sprawdź czasomierz",
+      "minutnik",
+      "czasomierz",
+      "jaki czas",
+      "ile czasu"
+    ]
+  },
+  {
+    "name": "intent_global_stop_extend",
+    "keyphrases": [
+      "wyłącz minutnik",
+      "zatrzymaj minutnik",
+      "zatrzymaj",
+      "anuluj minutnik",
+      "zatrzymaj czasomierz",
+      "wyłącz czasomierz",
+      "anuluj czasomierz"
+    ]
+  },
+  {
+    "name": "intent_clock_settimer_extend",
+    "keyphrases": [
+      "ustaw minutnik",
+      "ustaw minut",
+      "ustaw czasomierz",
+      "ustaw czasomiesz",
+      "ustaw czas na",
+      "odliczaj od"
+    ]
+  },
+  {
+    "name": "intent_clock_time",
+    "keyphrases": [
+      "która godzina",
+      "godzina",
+      "jaka godzina",
+      "pokaż godzinę"
+    ]
+  },
+  {
+    "name": "intent_imperative_quiet",
+    "keyphrases": [
+      "cicho",
+      "spokój",
+      "uspokój",
+      "stop"
+    ]
+  },
+  {
+    "name": "intent_imperative_dance",
+    "keyphrases": [
+      "tańcz",
+      "zatańcz",
+      "zatancz",
+      "potańcz",
+      "potancz",
+      "potańcówa",
+      "potańcówka",
+      "bujaj"
+    ]
+  },
+  {
+    "name": "intent_play_pickupcube",
+    "keyphrases": [
+      "podnieś kostkę",
+      "podnieś",
+      "zabierz"
+    ]
+  },
+  {
+    "name": "intent_imperative_fetchcube",
+    "keyphrases": [
+      "przynieś kostkę",
+      "weź kostkę"
+    ]
+  },
+  {
+    "name": "intent_imperative_findcube",
+    "keyphrases": [
+      "gdzie masz kostkę",
+      "gdzie kostka",
+      "pokaż kostkę",
+      "poszukaj kostki",
+      "poszukaj"
+    ]
+  },
+  {
+    "name": "intent_play_anytrick",
+    "keyphrases": [
+      "zrobić coś",
+      "zrób cokolwiek",
+      "zrobić coś fajnego",
+      "pokaż coś fajnego",
+      "pokaż coś",
+      "pochal się czymś",
+      "pochal się"
+    ]
+  },
+  {
+    "name": "intent_message_recordmessage_extend",
+    "keyphrases": [
+      "nagranie",
+      "nagrywać",
+      "nagraj",
+      "przekaż"
+    ]
+  },
+  {
+    "name": "intent_message_playmessage_extend",
+    "keyphrases": [
+      "przeczytaj wiadomość",
+      "przeczytaj",
+      "odczytaj",
+      "czytaj"
+    ]
+  },
+  {
+    "name": "intent_blackjack_hit",
+    "keyphrases": [
+      "trafienie"
+    ]
+  },
+  {
+    "name": "intent_blackjack_stand",
+    "keyphrases": [
+      "gramy",
+      "dajesz"
+    ]
+  },
+  {
+    "name": "intent_play_keepaway",
+    "keyphrases": [
+      "nie zbliżaj się",
+      "odejdź",
+      "odejdz",
+      "nie teraz",
+      "nie chcę"
+    ]
+  }
+]
