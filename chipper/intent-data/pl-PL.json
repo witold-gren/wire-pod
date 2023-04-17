@@ -1,7 +1,7 @@
 [
   {
     "name": "intent_names_username_extend",
-    "keyphrases": ["jestem", "moje imię to", "nazwywam się"]
+    "keyphrases": ["jestem", "moje imię to", "nazwywam się", "mam na imię"]
   },
   {
     "name": "intent_weather_extend",
@@ -21,11 +21,11 @@
   },
   {
     "name": "intent_explore_start",
-    "keyphrases": ["odkrywaj", "eksploruj", "zwiedzaj", "poznaj", "sprawdź", "rozpocznij odkrywanie", "rozpocznij eksplorację", "rozpocznij zwiedzanie", "rozpocznij sprawdzanie"]
+    "keyphrases": ["odkrywaj", "eksploruj", "zwiedzaj", "poznaj", "sprawdź", "rozpocznij odkrywanie", "zacznij eksplorować", "rozpocznij eksplorację", "rozpocznij zwiedzanie", "rozpocznij sprawdzanie", "rozejrzyj się"]
   },
   {
     "name": "intent_system_charger",
-    "keyphrases": ["do domu", "wróc do domu", "idź do domu", "naładuj", "ładować", "naładuj się", "do ładowarki", "znajdź ładowarkę", "poszukaj ładowarki", "idź się ładować"]
+    "keyphrases": ["do domu", "wróc do domu", "idź do domu", "naładuj", "ładować", "naładuj się", "idź się ładować", "do ładowarki", "znajdź ładowarkę", "poszukaj ładowarki", "idź się ładować"]
   },
   {
     "name": "intent_system_sleep",
@@ -33,7 +33,7 @@
   },
   {
     "name": "intent_greeting_goodmorning",
-    "keyphrases": ["dobry", "dzień dobry"]
+    "keyphrases": ["dzień dobry", "obudź się"]
   },
   {
     "name": "intent_greeting_goodnight",
@@ -45,7 +45,7 @@
   },
   {
     "name": "intent_seasonal_happynewyear",
-    "keyphrases": ["fajerwerki", "szczęśliwego nowego roku", "szczęśliwego roku"]
+    "keyphrases": ["fajerwerki", "szczęśliwego nowego roku", "szczęśliwego roku", "wszystkiego najlepszego"]
   },
   {
     "name": "intent_seasonal_happyholidays",
@@ -56,7 +56,7 @@
     "keyphrases": ["wprowadź aleksę", "zainstaluj aleksę", "zaloguj do aleksy", "aktywuj aleksę", "zarejestruj się w aleksa", "włącz aleksę", "zaloguj się"]
   },
   {
-    "name": "intent_amazon_signout",
+    "name": "intent_amazon_signin",
     "keyphrases": ["wyloguj się", "wyłącz aleksa", "wyłącz alekse", "wyłącz aleksę", "deaktywuj aleksę", "odinstaluj aleksę", "odinstaluj alekse"]
   },
   {
@@ -77,7 +77,7 @@
   },
   {
     "name": "intent_play_rollcube",
-    "keyphrases": ["rzuć kostką", "przesuń kostkę", "zagraj kostką"]
+    "keyphrases": ["rzuć kostką", "przesuń kostkę", "zagraj kostką", "pobaw się kostką"]
   },
   {
     "name": "intent_play_popawheelie",
@@ -105,7 +105,7 @@
   },
   {
     "name": "intent_imperative_praise",
-    "keyphrases": ["dobrze", "bardzo dobrze", "świetnie", "wspaniale", "znakomicie", "niesamowicie"]
+    "keyphrases": ["dobrze", "bardzo dobrze", "świetnie", "wspaniale", "znakomicie", "niesamowicie", "grzeczny jesteś", "fajny jesteś", "dobry jesteś", "dobry robot"]
   },
   {
     "name": "intent_imperative_abuse",
@@ -121,11 +121,11 @@
   },
   {
     "name": "intent_imperative_volumedown",
-    "keyphrases": ["ciszej", "wycisz" ]
+    "keyphrases": ["ciszej", "wycisz", "zmniejsz głośność"]
   },
   {
     "name": "intent_imperative_volumeup",
-    "keyphrases": ["głośniej", "podgłośnij"]
+    "keyphrases": ["głośniej", "podgłośnij", "zwiększ głośność"]
   },
   {
     "name": "intent_imperative_lookatme",
@@ -133,7 +133,7 @@
   },
   {
     "name": "intent_imperative_volumelevel_extend",
-    "keyphrases": ["głośność"]
+    "keyphrases": ["głośność", "ustaw głośność", "ustaw głośność na"]
   },
   {
     "name": "intent_imperative_shutup",
@@ -145,11 +145,11 @@
   },
   {
     "name": "intent_imperative_come",
-    "keyphrases": ["chodź", "chodź tu", "chodź tutaj", "chodź do mnie", "przyjdź do mnie", "przyjdź tu", "pokaż się"]
+    "keyphrases": ["chodź", "chodź tu", "chodź tutaj", "chodź no tutaj", "chodź do mnie", "przyjdź do mnie", "przyjdź tu", "pokaż się"]
   },
   {
     "name": "intent_imperative_love",
-    "keyphrases": ["Kocham cię", "Słodki", "Kochany", "Miłości moja", "Słodziak"]
+    "keyphrases": ["kocham cię", "słodki", "kochany", "miłości moja", "słodziak", "słodzi jak", "łodzi jak", "milusi"]
   },
   {
     "name": "intent_knowledge_promptquestion",
@@ -177,7 +177,7 @@
   },
   {
     "name": "intent_imperative_dance",
-    "keyphrases": ["tańcz", "zatańcz", "pokaż jak tańczysz", "potańcz", "potańcówa", "potańcówka", "po bujaj się", "słucha muzyki", "posłuchaj muzyki", "poczuj rytm"]
+    "keyphrases": ["tańcz", "zatańcz", "zatańczysz", "pokaż jak tańczysz", "potańcz", "potańcówa", "potańcówka", "po bujaj się", "słucha muzyki", "posłuchaj muzyki", "poczuj rytm"]
   },
   {
     "name": "intent_play_pickupcube",
