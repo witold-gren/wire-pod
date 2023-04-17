@@ -1,7 +1,7 @@
 [
   {
     "name": "intent_names_username_extend",
-    "keyphrases": ["jestem", "moje imię to", "nazwywam się", "mam na imię"]
+    "keyphrases": ["moje imię to", "nazwywam się", "mam na imię"]
   },
   {
     "name": "intent_weather_extend",
