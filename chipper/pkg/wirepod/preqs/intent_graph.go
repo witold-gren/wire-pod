@@ -46,7 +46,8 @@ func (s *Server) ProcessIntentGraph(req *vtt.IntentGraphRequest) (*vtt.IntentGra
 	if !successMatched {
 		logger.Println("No intent was matched.")
 		if vars.APIConfig.Knowledge.Enable && vars.APIConfig.Knowledge.Provider == "openai" && len([]rune(transcribedText)) >= 8 {
-			apiResponse := openaiRequest(transcribedText)
+			apiResponse := ttr.ConvertSpeechText(openaiRequest(transcribedText))
+			logger.Println("ConvertSpeechText: " + apiResponse)
 			sr.BotNum = sr.BotNum - 1
 			response := &pb.IntentGraphResponse{
 				Session:      req.Session,

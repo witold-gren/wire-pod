@@ -85,19 +85,11 @@
   },
   {
     "name": "intent_play_fistbump",
-    "keyphrases": ["przybij piątke", "pszybij piątke", "żółwik", "piątka", "daj piątkę"]
+    "keyphrases": ["przybij piątke", "przybij piątkę", "pszybij piątke", "pszybij piątkę", "żółwik", "piątka", "daj piątkę"]
   },
   {
     "name": "intent_play_blackjack",
     "keyphrases": ["blek dżak", "blek dzak", "blekdżak", "blekdzak", "zagrajmy w karty", "gramy w karty", "zagrajmy", "karty"]
-  },
-  {
-    "name": "intent_imperative_affirmative",
-    "keyphrases": ["ta", "tak", "dokładnie", "pewnie", "dajesz", "prawda"]
-  },
-  {
-    "name": "intent_imperative_negative",
-    "keyphrases": ["nie", "daj spokój", "spadaj"]
   },
   {
     "name": "intent_photo_take_extend",
@@ -214,5 +206,13 @@
   {
     "name": "intent_play_keepaway",
     "keyphrases": [ "nie zbliżaj się", "odejdź", "nie teraz", "nie chcę"]
+  },
+  {
+    "name": "intent_imperative_affirmative",
+    "keyphrases": ["ta", "tak", "dokładnie", "pewnie", "dajesz", "prawda"]
+  },
+  {
+    "name": "intent_imperative_negative",
+    "keyphrases": ["nie", "daj spokój", "spadaj"]
   }
 ]

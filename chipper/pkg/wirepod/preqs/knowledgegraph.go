@@ -13,6 +13,7 @@ import (
 	"github.com/kercre123/chipper/pkg/vars"
 	"github.com/kercre123/chipper/pkg/vtt"
 	sr "github.com/kercre123/chipper/pkg/wirepod/speechrequest"
+	ttr "github.com/kercre123/chipper/pkg/wirepod/ttr"
 	"github.com/pkg/errors"
 	"github.com/soundhound/houndify-sdk-go"
 )
@@ -145,7 +146,8 @@ func (s *Server) ProcessKnowledgeGraph(req *vtt.KnowledgeGraphRequest) (*vtt.Kno
 	sr.BotNum = sr.BotNum + 1
 	InitKnowledge()
 	speechReq := sr.ReqToSpeechRequest(req)
-	apiResponse := KgRequest(speechReq)
+	apiResponse := ttr.ConvertSpeechText(KgRequest(speechReq))
+	logger.Println("ConvertSpeechText: " + apiResponse)
 	kg := pb.KnowledgeGraphResponse{
 		Session:     req.Session,
 		DeviceId:    req.Device,
@@ -158,5 +160,4 @@ func (s *Server) ProcessKnowledgeGraph(req *vtt.KnowledgeGraphRequest) (*vtt.Kno
 		return nil, err
 	}
 	return nil, nil
-
 }

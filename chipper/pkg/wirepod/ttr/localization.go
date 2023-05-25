@@ -40,7 +40,7 @@ const STR_FOR = "str_for"
 // All text must be lowercase!
 
 var texts = map[string][]string{
-	//  key                 						en-US		it-IT		es-ES		fr-FR		de-DE		pl-PL
+	//  key                 						en-US		it-IT		es-ES		fr-FR		de-DE
 	STR_WEATHER_IN:                     {" in ", " a ", " en ", " en ", " in ", " w "},
 	STR_WEATHER_FORECAST:               {"forecast", "previsioni", "pronóstico", "prévisions", "wettervorhersage", "prognoza"},
 	STR_WEATHER_TOMORROW:               {"tomorrow", "domani", "mañana", "demain", "morgen", "jutro"},
@@ -77,20 +77,58 @@ var texts = map[string][]string{
 	STR_FOR:                            {" for ", " per ", " para ", " pour ", " für ", " dla "},
 }
 
-func getText(key string) string {
-	var data = texts[key]
+var texts_pl_PL = map[string][]string{
+	//  key                 						pl-PL
+	STR_WEATHER_IN:                     {" w ", " we ", " na "},
+	STR_WEATHER_FORECAST:               {"prognoza", "pogoda"},
+	STR_WEATHER_TOMORROW:               {"jutro"},
+	STR_WEATHER_THE_DAY_AFTER_TOMORROW: {"pojutrze"},
+	STR_WEATHER_TONIGHT:                {"dziś wieczorem", "wieczorem"},
+	STR_WEATHER_THIS_AFTERNOON:         {"popołudniu"},
+	STR_EYE_COLOR_PURPLE:               {"fioletowy"},
+	STR_EYE_COLOR_BLUE:                 {"niebieski"},
+	STR_EYE_COLOR_SAPPHIRE:             {"szafir"},
+	STR_EYE_COLOR_YELLOW:               {"żółty"},
+	STR_EYE_COLOR_TEAL:                 {"morski"},
+	STR_EYE_COLOR_TEAL2:                {"akwamaryn"},
+	STR_EYE_COLOR_GREEN:                {"zielony"},
+	STR_EYE_COLOR_ORANGE:               {"pomarańczowy"},
+	STR_ME:                             {"mi", "mnie"},
+	STR_SELF:                           {"ja", "siebie"},
+	STR_VOLUME_LOW:                     {"niski"},
+	STR_VOLUME_QUIET:                   {"cichy"},
+	STR_VOLUME_MEDIUM_LOW:              {"średnio niski"},
+	STR_VOLUME_MEDIUM:                  {"średni"},
+	STR_VOLUME_NORMAL:                  {"normalny"},
+	STR_VOLUME_REGULAR:                 {"zwyczajny", "regularny"},
+	STR_VOLUME_MEDIUM_HIGH:             {"średno wysoki"},
+	STR_VOLUME_HIGH:                    {"wysoki"},
+	STR_VOLUME_LOUD:                    {"głośny"},
+	STR_VOLUME_MUTE:                    {"wyciszony"},
+	STR_VOLUME_NOTHING:                 {"nic"},
+	STR_VOLUME_SILENT:                  {"cichy"},
+	STR_VOLUME_OFF:                     {"wyłączony"},
+	STR_VOLUME_ZERO:                    {"zero", "nic"},
+	STR_NAME_IS:                        {" to ", "jestem "},
+	STR_NAME_IS2:                       {" się "},
+	STR_NAME_IS3:                       {"imię"},
+	STR_FOR:                            {" dla "},
+}
+
+func getText(key string) list[string] {
+	var data = texts[key] 
 	if data != nil {
 		if vars.APIConfig.STT.Language == "it-IT" {
-			return data[1]
+			return {data[1]}
 		} else if vars.APIConfig.STT.Language == "es-ES" {
-			return data[2]
+			return {data[2]}
 		} else if vars.APIConfig.STT.Language == "fr-FR" {
-			return data[3]
+			return {data[3]}
 		} else if vars.APIConfig.STT.Language == "de-DE" {
-			return data[4]
+			return {data[4]}
 		} else if vars.APIConfig.STT.Language == "pl-PL" {
-			return data[5]
+			return texts_pl_PL[key]
 		}
 	}
-	return data[0]
+	return {data[0],}
 }
